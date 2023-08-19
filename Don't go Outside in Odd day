@@ -1,0 +1,11 @@
+lst1 = [int(item) for item in input("Enter the list items : ").split()]
+print(lst1)
+even_nos=0
+odd_nos=0
+for i in range(len(lst1)):
+    if lst1[i]%2==0:
+        even_nos+=1
+    else:
+        odd_nos+=1
+print("Count of even numbers:",even_nos)
+print("Count of odd numbers:",odd_nos)
