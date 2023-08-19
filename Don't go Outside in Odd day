@@ -1,5 +1,4 @@
 lst1 = [int(item) for item in input("Enter the list items : ").split()]
-print(lst1)
 even_nos=0
 odd_nos=0
 for i in range(len(lst1)):
