@@ -1,0 +1,5 @@
+def triple(n):
+    return n*3
+lst1 = [int(item) for item in input("Enter the list items : ").split()]
+result=list(map(triple, lst1))
+print(result)
