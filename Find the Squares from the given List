@@ -1,0 +1,5 @@
+def square(n):
+    return n*n
+lst1 = [int(item) for item in input("Enter the list items : ").split()]
+result=list(map(square, lst1))
+print(result)
