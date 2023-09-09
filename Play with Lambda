@@ -1,0 +1,3 @@
+N=int(input("Enter Number:"))
+x=lambda a : a+35
+print(x(N))
